@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #f46197;
+}
+
+nav {
+  text-align: center;
+}
+
+nav,
+span {
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.banner {
+  background-image: url("Breakfast\ Burrito.jpg");
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+#caption {
+  text-align: left;
+  background-color: #0a2342;
+  line-height: 40px;
+  color: #2ca58d;
+  font-size: 40px;
+  font-weight: 300;
+  width: 35%;
+}
+
+#ingredients,
+ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.macros {
+  background-color: #f46197;
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  padding: 10px 20px;
+  margin: 3px;
+}
+
+.macros .category {
+  color: #0a2342;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.macros .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.button {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #84bc9c;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid#fff;
+}
+
+.button:hover {
+  background-color: #0a2342;
+  border: 1px solid #fff;
+  color: #fff;
+}
